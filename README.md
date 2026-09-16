@@ -1,4 +1,4 @@
-"# CoconaPatsGivesXp for LonaRPG"
+# CoconaPatsGivesXp MOD for the game LonaRPG
 
 ## Why?
 
@@ -12,9 +12,11 @@ You should get around 1k or 2k of xp normaly, but can go up 4k if you are high l
 
 ## Instalation
 
-Just place the CoconaPatsGivesXp folder in your Mods folder 
+Download the file in the release, and extract it in your `LonaRPG/ModScripts/_Mods` folder
 
 It should be: `LonaRPG/ModScripts/_Mods/CoconaPatsGivesXp`
+
+Make sure the folder name is exact "CoconaPatsGivesXp"!
 
 ## Requirements
 
