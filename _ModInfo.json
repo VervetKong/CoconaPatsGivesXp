@@ -1,0 +1,11 @@
+{
+  "id": "CoconaPatsGivesXp",
+  "version": 1.0,
+  "name": "CoconaPatsGivesXp",
+  "description": "Best girl gives a huge XP for good headpats!",
+  "requires": {
+	  "LonaRPG": [">=", 0.990]
+  },
+  "texts": "Text",
+  "entry": "loader.rb"
+}
