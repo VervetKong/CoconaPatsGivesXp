@@ -45,12 +45,11 @@ result = mini_game_ddr_cocona_headpat(nil,false)
 #0 failed
 #1 okay
 #2 great
-#>=3 feverMode  if arousal >= will || arousal >= will * 0.5
 
 if result >= 1 # only recieves if you pat her good enought!
 	tmpExpFinal = ((result*700) + ($game_player.actor.level*30)).round
 	$game_player.actor.gain_exp(tmpExpFinal)
-	call_msg("You have gained #{tmpExpFinal} XP for petting the best girl!")
+	call_msg("\\narr You have gained #{tmpExpFinal} XP for petting the best girl!")
 end
 #-------------------------------------------------------------
 

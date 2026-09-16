@@ -30,9 +30,12 @@ result = mini_game_ddr_cocona_headpat(300,true)
 
 #------------------------------------------------------------- UPDATE BY MOD: Cocona XP Headpat Farm
 if result >= 1 # only recieves if you pat her good enought!
-	tmpExpFinal = ((result*700) + ($game_player.actor.level*30)).round
+	fever_result = 0
+	fever_result = result - 2 if result > 2
+	tmpExpFinal = (((result-fever_result)*700) + ($game_player.actor.level*30) + (fever_result*150)).round
 	$game_player.actor.gain_exp(tmpExpFinal)
-	call_msg("You have gained #{tmpExpFinal} XP for petting the best girl!")
+	tmpFeverText = " You got even more for the great job!" if fever_result > 0
+	call_msg("\\narr You have gained #{tmpExpFinal} XP for petting the best girl!#{tmpFeverText}")
 end
 #-------------------------------------------------------------
 
