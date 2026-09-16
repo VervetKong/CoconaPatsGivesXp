@@ -1,4 +1,4 @@
-"# CoconaPatsGivesXp for LonaRPG"
+# CoconaPatsGivesXp MOD for the game LonaRPG
 
 ## Why?
 
